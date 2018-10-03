@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "baseUrl": "../node_modules",
+    "target": "ES2015",
+    "module": "ES2015",
+    "lib": ["es2015", "dom"],
+    "types": ["cypress"],
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}
